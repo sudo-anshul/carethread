@@ -1,0 +1,31 @@
+/* Plum & Porcelain: shared color roles for the introduction and workspace. */
+:root {
+  --ct-primary: #503d58;
+  --ct-primary-hover: #665071;
+  --ct-primary-active: #403047;
+  --ct-canvas: #faf7f4;
+  --ct-paper: #ffffff;
+  --ct-surface: #ede4ee;
+  --ct-surface-subtle: #f5eff5;
+  --ct-text: #503d58;
+  --ct-muted: #6c6070;
+  --ct-border: #ded3df;
+  --ct-border-strong: #8f7c95;
+  --ct-accent: #366459;
+  --ct-accent-hover: #284f45;
+  --ct-accent-surface: #e4efe9;
+  --ct-accent-border: #bbd0c5;
+  --ct-on-primary: #faf7f4;
+  --ct-on-primary-muted: #e6dae8;
+  --ct-on-primary-border: #8f7c95;
+  --ct-focus: #366459;
+  --ct-focus-inverse: #e4efe9;
+  --ct-overlay: #2b2033a6;
+  --ct-shadow: #503d5814;
+  --ct-type-body: 1rem;
+  --ct-type-lead: 1.125rem;
+  --ct-type-ui: .9375rem;
+  --ct-type-small: .875rem;
+  --ct-type-caption: .8125rem;
+  --ct-type-micro: .75rem;
+}
