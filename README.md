@@ -4,6 +4,8 @@ CareThread is a browser-based prototype for organizing one person's test orders 
 
 A solo hackathon project by **Anshul Kushwaha, GCET**.
 
+[Live demo](https://carethread-one.vercel.app) · [Open workspace](https://carethread-one.vercel.app/workspace)
+
 ## Run locally
 
 Use **Node.js 22.13 or newer** and npm:
@@ -77,7 +79,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-The retained release checks passed **70 unit tests and 24 Chromium browser tests**. They cover deterministic parsing and matching, ordered persistence, import decisions, saved-record compatibility, document review and question export, validation and recovery, search, and landing navigation. The sample check verifies the text and fields of all nine PDFs. Browser tests use fictional data and serve the production build at `http://127.0.0.1:4174`; keep that port available.
+Fresh publication checks passed **70 unit tests and 24 Chromium browser tests** after `npm ci`, along with a production build and verification of all nine sample PDFs. They cover deterministic parsing and matching, ordered persistence, import decisions, saved-record compatibility, document review and question export, validation and recovery, search, and landing navigation. The sample check verifies the text and fields of all nine PDFs. Browser tests use fictional data and serve the production build at `http://127.0.0.1:4174`; keep that port available.
 
 These checks establish behavior in the tested scope. They do not establish clinical accuracy, user benefit, accessibility conformance, cross-browser coverage or real-device performance.
 
